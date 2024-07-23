@@ -1,0 +1,21 @@
+[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://bl8824s0pbkwx"]
+
+[ext_resource type="Texture2D" uid="uid://bkr6ops2bwa70" path="res://Assets/Tiny Swords (Update 010)/Terrain/Water/Foam/Foam.png" id="1_p7a0y"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_pp8lq"]
+texture = ExtResource("1_p7a0y")
+texture_region_size = Vector2i(192, 192)
+0:0/animation_speed = 5.0
+0:0/animation_frame_0/duration = 1.0
+0:0/animation_frame_1/duration = 1.0
+0:0/animation_frame_2/duration = 1.0
+0:0/animation_frame_3/duration = 1.0
+0:0/animation_frame_4/duration = 1.0
+0:0/animation_frame_5/duration = 1.0
+0:0/animation_frame_6/duration = 1.0
+0:0/animation_frame_7/duration = 1.0
+0:0/0 = 0
+
+[resource]
+tile_size = Vector2i(64, 64)
+sources/0 = SubResource("TileSetAtlasSource_pp8lq")

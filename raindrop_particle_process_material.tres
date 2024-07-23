@@ -1,0 +1,13 @@
+[gd_resource type="ParticleProcessMaterial" format=3 uid="uid://8gnbr1x27abs"]
+
+[resource]
+particle_flag_disable_z = true
+emission_shape = 3
+emission_box_extents = Vector3(1000, 1, 1)
+direction = Vector3(2.08165e-12, 1, 2.08165e-12)
+spread = 0.0
+initial_velocity_min = 100.0
+initial_velocity_max = 300.0
+gravity = Vector3(2.08165e-12, 298, 2.08165e-12)
+scale_min = 1.5
+scale_max = 1.5

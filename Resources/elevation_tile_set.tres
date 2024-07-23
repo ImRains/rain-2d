@@ -1,0 +1,23 @@
+[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://bbcmlroctp83p"]
+
+[ext_resource type="Texture2D" uid="uid://bcmdnovv7ip37" path="res://Assets/Tiny Swords (Update 010)/Terrain/Ground/Tilemap_Elevation.png" id="1_8dmxv"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lhgai"]
+texture = ExtResource("1_8dmxv")
+texture_region_size = Vector2i(64, 64)
+0:0/0 = 0
+1:1/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+2:3/0 = 0
+1:3/0 = 0
+0:3/0 = 0
+0:2/0 = 0
+0:1/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+2:1/0 = 0
+
+[resource]
+tile_size = Vector2i(64, 64)
+sources/0 = SubResource("TileSetAtlasSource_lhgai")
